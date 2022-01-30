@@ -1,7 +1,4 @@
-#LogoAllOn6{
- 
-  
-}
+
 #Container{
     background-image: url("../../../assets/img/BannerPrincipal.png");
 
@@ -13,4 +10,7 @@ p{
 }
 .card{
     border: none;
+}
+#doctorsPhotos{
+    border-radius: 50%;
 }
