@@ -1,12 +1,9 @@
-a:hover{
-    border-color: red;
-  
-    border-style: solid;
-  
+strong:hover{
+     color: red;
 }
 a{
     margin-left: 1rem;
    
-    font-size: larger;
+    font-size: 1.5rem;
     font-style: italic;
 }
