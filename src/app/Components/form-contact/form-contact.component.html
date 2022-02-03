@@ -4,42 +4,50 @@
         <div class="card">
             <img class="card-img-top" src="holder.js/100x180/" alt="">
             <div class="card-body">
-                <img class="img-fluid" src="../../../assets/TucanFondo.png" alt="" >
+                <img class="img-fluid" src="../../../assets/TucanFondo.png" alt="">
             </div>
         </div>
         <div class="card">
             <img class="card-img-top" src="holder.js/100x180/" alt="">
             <div class="card-body">
-                <form>
+                <form [formGroup]="FormContact" (ngSubmit)="SubmitContactInformation()">
                     <div class="form-row">
                         <div class="form-group col-md-12">
                             <label for="">Name</label>
-                            <input type="text" class="form-control" required placeholder="Name">
+                            <input type="text" class="form-control" required placeholder="Name"
+                                formControlName="FormContactNombre">
                             <label for="">Email</label>
-                            <input type="email" class="form-control" required placeholder="Name">
+                            <input type="email" class="form-control" required placeholder="Name"
+                                formControlName="FormContactEmail">
                             <label for="">Phone</label>
-                            <input type="text" class="form-control" required placeholder="Name">
+                            <input type="text" class="form-control" required placeholder="Name"
+                                formControlName="FormContactPhone">
                             <label for="">I want to be contacted by:</label>
-                            <select class="custom-select">
+                            <select class="custom-select" required formControlName="FormContactTypeContact">
                                 <option value="Phone">Phone</option>
                                 <option value="Email">Email</option>
                                 <option value="Text Message">Text</option>
                             </select>
                             <label for="">Do I have a passport?</label>
-                            <select class="custom-select">
+                            <select class="custom-select" required formControlName="FormContactPassPort">
                                 <option value="Yes">Yes</option>
                                 <option value="No">No</option>
 
                             </select>
                             <label for="">Procedure that I am interested in:</label>
-                            <select class="custom-select">
+                            <select class="custom-select" required formControlName="FormContacProcedure">
                                 <option value="All on 6">All on 6 </option>
                                 <option value="Other">Other</option>
 
                             </select>
                             <hr>
-                            <button class="btn btn-danger" type="submit">Submit Information</button>
+                            <div *ngIf="StateAlertSubmit" class="alert alert-success" role="alert">
+                                <strong>{{MessageSuccess}}</strong>
+                            </div>
+                            <button *ngIf="StatusSubmit" class="btn btn-danger" type="submit"
+                                [disabled]="FormContact.invalid">Submit Information</button>
                             <br>
+
                             <br>
                             <br>
                             <strong>*Priced exclusively for bank in U.S.A or Cash payment.</strong>

@@ -4,7 +4,8 @@ import { FormContactComponent } from './form-contact/form-contact.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { GalleryComponent } from './gallery/gallery.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 
 @NgModule({
@@ -16,7 +17,10 @@ import { GalleryComponent } from './gallery/gallery.component';
   ],
   imports: [
     CommonModule,
-    
-  ]
+    ReactiveFormsModule,
+    FormsModule
+  ],
+  schemas:[CUSTOM_ELEMENTS_SCHEMA]
+  
 })
 export class ComponentsModule { }
