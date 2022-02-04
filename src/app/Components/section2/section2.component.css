@@ -1,0 +1,16 @@
+
+#Container{
+    background-image: url("../../../assets/img/BannerPrincipal.png");
+
+}
+p{
+    font-size: x-large;
+    font-family: 'Arial';
+    text-align: justify;
+}
+.card{
+    border: none;
+}
+#doctorsPhotos{
+    border-radius: 50%;
+}
