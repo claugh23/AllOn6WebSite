@@ -5,7 +5,8 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
 const routes: Routes = [
 
   {path:'All-On-6-Home',component:HomePageComponent},
-  {path:'**',redirectTo:'All-On-6-Home',pathMatch:'full'}
+  {path:'**',redirectTo:'All-On-6-Home',pathMatch:'full'},
+  {path:'**',redirectTo:'All-On-6-Home'}
 
 ];
 

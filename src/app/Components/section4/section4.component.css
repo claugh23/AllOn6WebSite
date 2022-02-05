@@ -1,20 +1,17 @@
-
-#Container{
-    background-image: url("../../../assets/img/BannerPrincipal.png");
-
-}
-p{
-    font-size: x-large;
-    font-family: 'Arial';
-    text-align: justify;
-}
 .card{
     border: none;
 }
-#doctorsPhotos{
-    border-radius: 50%;
-}
 li{
     border: none;
-    font-size: large;
+    font-size: 25px;
+}
+#TitleAllOn6{
+    text-align: center;
+    font-family:'Arial' ;
+    color: white;
+}
+#TitleAllOn6Package{
+    background-color: red;
+    padding: 15px;
+    border-radius: 50px;
 }

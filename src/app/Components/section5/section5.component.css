@@ -1,0 +1,16 @@
+#ContainerTitleClinic{
+    padding: 15px;
+    border-radius: 25px;
+    background-color: red;
+}
+P{
+    font-size: larger;
+    font-family: 'Arial';
+    text-align: justify;
+}
+#CardDescriptionClinic{
+    border: none;
+}
+.card{
+    border: none;
+}
