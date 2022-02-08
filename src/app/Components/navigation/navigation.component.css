@@ -1,9 +1,12 @@
 p{
     font-size: 1.4rem;
     font-family: 'Arial';
+    margin-bottom: 0px;
 }
 p:hover{
-  color: red;
+  color:#ED1A3A
+  
+  
 }
 a{
   margin-right: 125px;

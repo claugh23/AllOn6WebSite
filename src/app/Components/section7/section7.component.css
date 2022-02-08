@@ -1,5 +1,9 @@
 #TitleFormContact{
     padding: 15px;
     border-radius: 50px;
-    background-color: red;
+    background-color: #ED1A3A;
+}
+
+label{
+    font-size: xx-large;
 }
