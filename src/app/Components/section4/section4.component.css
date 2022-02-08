@@ -15,3 +15,6 @@ li{
     padding: 15px;
     border-radius: 50px;
 }
+iframe{
+    box-sizing: border-box;
+}
