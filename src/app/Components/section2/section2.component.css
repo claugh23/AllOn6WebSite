@@ -4,18 +4,20 @@
 
 }
 p{
-    font-size: x-large;
+    font-size: xx-large;
     font-family: 'Arial';
     text-align: justify;
-    color: black;
+    color: #064973
 }
 #CardImagenTratment{
     border: none;
 }
+#Titulotreat{
+    color: #064973
+}
 #CardTreatmentDescription{
-    border-radius: 2%;
-    background-color: whitesmoke;
-    
+   border: none;
+   max-width: 600px;
 }
 #doctorsPhotos{
     border-radius: 50%;

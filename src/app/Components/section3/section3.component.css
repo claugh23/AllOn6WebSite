@@ -1,6 +1,7 @@
-#TitleBefore{
-    padding: 15px; 
-    background-color: red;
-    font-family: 'Arial';
-    border-radius: 50px;
+
+.card{
+    border: none;
+}
+strong{
+    color: #064973
 }

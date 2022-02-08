@@ -1,14 +1,19 @@
 .card{
     border: none;
 }
+#VideoCardCol{
+
+}
 li{
     border: none;
     font-size: 25px;
+    color: #064973
 }
 #TitleAllOn6{
     text-align: center;
-    font-family:'Arial' ;
-    color: white;
+    font-family: 'Century Gothic';
+    color: red;
+    font-size: 65px
 }
 #TitleAllOn6Package{
     background-color: red;
