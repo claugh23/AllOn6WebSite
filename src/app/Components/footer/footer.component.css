@@ -1,10 +1,17 @@
 a{
-    background-color: white;
+    color: white;
+   
+}
+li{
+  font-size: 17px;
+}
+footer{
+  background-color: #064973;
 }
 .footer-clean {
   
     background-color:#fff;
-    color:#4b4c4d;
+    color:#ffffff;
   } 
   
   .footer-clean h3 {

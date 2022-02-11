@@ -4,6 +4,9 @@ import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms'
 import { ContactModel } from 'src/app/Interfaces/ContactInformation';
 import { ContactService } from 'src/app/services/Contact/contact.service';
 
+declare function click():void;
+declare function ResCarousel():void;
+declare function ResCarouselSize():void;
 @Component({
   selector: 'app-section7',
   templateUrl: './section7.component.html',
@@ -27,7 +30,10 @@ export class Section7Component implements OnInit {
       FormContactPassPort: new FormControl('', Validators.required),
       FormContacProcedure: new FormControl('', Validators.required)
 
-    })
+    });
+
+  
+    
   }
 
   async SubmitContactInformation() {
@@ -55,7 +61,8 @@ export class Section7Component implements OnInit {
 
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
+ 
   }
 
 }
