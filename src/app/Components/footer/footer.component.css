@@ -2,9 +2,13 @@ a{
     color: white;
    
 }
+h2{
+  font-family: 'Century Gothic Regular';
+}
 li{
-  font-size: 17px;
-  text-align: center;
+  font-size: 23px;
+  text-align: left;
+  font-family: 'Century Gothic Regular';
 }
 img{
   position: absolute;

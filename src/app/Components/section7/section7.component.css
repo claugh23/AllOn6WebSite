@@ -5,7 +5,8 @@
 }
 
 label{
-    font-size: xx-large;
+    font-size: 20px;
+    font-family: 'Century Gothic Regular';
 }
 .list-group-item{
     border: none;
