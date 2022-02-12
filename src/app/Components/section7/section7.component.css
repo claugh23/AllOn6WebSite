@@ -3,7 +3,9 @@
     border-radius: 50px;
     background-color: #ED1A3A;
 }
-
+li{
+    font-size: 20px;
+}
 label{
     font-size: 20px;
     font-family: 'Century Gothic Regular';
