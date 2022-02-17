@@ -9,7 +9,8 @@ export class Section5Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+  
   }
 
 }
